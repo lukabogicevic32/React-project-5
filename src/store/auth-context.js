@@ -36,5 +36,5 @@ export const AuthContextProvider = (props) => {
    {props.children}
   </AuthContext.Provider>
 };
-//prosp za configuration, context za state managment acroos compoentns or accrosed entire app high frequency changes vise promjena u sekundi
+//props za configuration, context za state managment across compoentns or acrossed entire app, high frequency changes ne moze context da podrzi,  vise promjena u sekundi koristiti state
 export default AuthContext;
